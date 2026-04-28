@@ -96,6 +96,10 @@ function createPopup() {
   document.getElementById('closePopup').addEventListener('click', function() {
     overlay.style.display = 'none';
   });
+    // ✅ 弹窗插入 DOM 后，通知 MaxConv 重新扫描处理新链接
+  if (typeof window.maxconv === 'function') {
+    window.maxconv('scan');
+  }
 }
 
 // 滚动监听：到35%触发一次
