@@ -85,7 +85,7 @@ function createPopup() {
             <span id="closePopup" style="cursor:pointer; font-size:20px;">✕</span>
           </div>
           <div style="padding: 20px; text-align: center;">
-            <img src="https://dailylifeinsider.com/wp-content/uploads/2025/03/3408904830894308943.jpg"
+            <img src="img/pop.webp"
               style="
                 width: 200px;
                 height: 200px;
